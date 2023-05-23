@@ -4,10 +4,11 @@ const admin = require("firebase-admin");
 const dataRoutes = require("./routes/dataRoutes");
 
 // Initialize Firebase Admin SDK
-const serviceAccount = require("./embedded-swa-firebase-adminsdk-thxm8-14050ccf70.json");
+const serviceAccount = require("./embedded-swa-ver2-firebase-adminsdk-5jist-50c6993bd5.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://embedded-swa-default-rtdb.firebaseio.com", // Replace with your Firebase project's URL
+  databaseURL:
+    "https://embedded-swa-ver2-default-rtdb.asia-southeast1.firebasedatabase.app", // Replace with your Firebase project's URL
 });
 
 // Start the server

@@ -1,7 +1,7 @@
 const admin = require("firebase-admin");
 
 const getData = (req, res) => {
-  const databaseRef = admin.database().ref("/DataTable"); // Replace with the path to your data in the Realtime Database
+  const databaseRef = admin.database().ref("/dataTable"); // Replace with the path to your data in the Realtime Database
 
   databaseRef.once(
     "value",
