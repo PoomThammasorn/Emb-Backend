@@ -7,7 +7,7 @@ const getData = (req, res) => {
     "value",
     (snapshot) => {
       const data = snapshot.val();
-      console.log(data);
+      //console.log(data);
       res.json(data);
     },
     (error) => {
