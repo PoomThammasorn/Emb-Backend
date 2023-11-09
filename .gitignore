@@ -8,6 +8,9 @@ firebase.json
 firebase-debug.log
 .firestore-emulator
 
+# Firebase Admin SDK JSON file
+embedded-swa-ver2-firebase-adminsdk-5jist-50c6993bd5.json
+
 # IDE/Editor specific files
 .vscode/
 .idea/
@@ -34,3 +37,4 @@ Thumbs.db
 
 # Other project specific files
 # Add any other files/directories you want to ignore here
+
